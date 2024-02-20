@@ -1,6 +1,6 @@
 # Better Burnables
 
-One of the things I was really surprised about when I first played BTA was how few burnable items there are, 
+One of the things I was really surprised about when I first played BTA was how few items could be used in furnaces, 
 especially with some that realistically should be burnable. If there's anything you think I missed, let me know!
 
 ## Tons of items now burnable!
