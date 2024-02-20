@@ -68,6 +68,7 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Item.cloth.id, 20);
 
 		this.addFuelEntry(Block.wool.id, 50);
+		this.addFuelEntry(Block.pressureplatePlanksOak.id, 50);
 		this.addFuelEntry(Item.label.id, 50);
 		this.addFuelEntry(Block.blockSugarcaneBaked.id, 50);
 		this.addFuelEntry(Item.book.id, 50);

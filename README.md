@@ -1,7 +1,8 @@
 # Better Burnables
 
-One of the things I was really surprised about when I first played BTA was how few items could be used in furnaces, 
-especially with some that realistically should be burnable. If there's anything you think I missed, let me know!
+Allows all the items that are realistically burnable be burned in furnaces. 
+If there's anything you think I missed, let me know! 
+Should be completely compatable with other mods btw :)
 
 ## Tons of items now burnable!
 As of v. 1.0 the full list is:
@@ -23,6 +24,7 @@ As of v. 1.0 the full list is:
 - Labels
 - Baked Sugarcane Blocks
 - Books
+- Wooden Pressure Plates
 - Flags
 - Paintings
 - Ladders
