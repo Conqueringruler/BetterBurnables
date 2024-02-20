@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "betterburnables",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Better Burnables",
+  "description": "This mod allows all the things that could realistically be burnt, be burnt. ",
   "authors": [
-    "Turnip Labs"
+    "Conq_"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"conq_.betterburnables.BetterBurnables"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"conq_.betterburnables.BetterBurnables"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"conq_.betterburnables.BetterBurnables"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"conq_.betterburnables.BetterBurnables"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"conq_.mixins.json"
   ],
 
   "depends": {
