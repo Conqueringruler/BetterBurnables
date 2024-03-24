@@ -76,7 +76,7 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.noteblock.id, 800);
 		this.addFuelEntry(Block.jukebox.id, 800);
 
-		this.addFuelEntry(Block.chestLegacy.id, 800);
+		this.addFuelEntry(Block.chestLegacy.id, 800); // 1 item is 200
 		this.addFuelEntry(Block.chestLegacyPainted.id, 800);
 		this.addFuelEntry(Block.chestPlanksOak.id, 800);
 		this.addFuelEntry(Block.chestPlanksOakPainted.id, 800);
