@@ -90,7 +90,8 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.pumpkinCarvedActive.id, 500);
 		this.addFuelEntry(Block.paperWall.id, 500);
 
-
+		this.addFuelEntry(Block.noteblock.id, 1600);
+		this.addFuelEntry(Block.jukebox.id, 1600);
 	}
 	//@Shadow private Block modelBlock;
 	/**

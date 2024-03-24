@@ -38,3 +38,5 @@ As of v. 1.0 the full list is:
 - Jack O' Lantern
 - Paper Fence
 - Paper Wall
+- Noteblock
+- Jukebox
