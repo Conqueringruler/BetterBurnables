@@ -1,33 +1,16 @@
 package conq_.betterburnables.mixin;
-import net.minecraft.core.block.BlockStairs;
+
+import net.minecraft.core.block.Block;
 import net.minecraft.core.crafting.LookupFuelFurnace;
-import net.minecraft.core.enums.EnumDropCause;
-import net.minecraft.core.item.ItemSeeds;
-import net.minecraft.core.item.ItemStack;
-import net.minecraft.core.world.World;
+import net.minecraft.core.item.Item;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import net.minecraft.core.block.Block;
-import net.minecraft.core.block.BlockLeavesBase;
-import net.minecraft.core.block.entity.TileEntity;
-import net.minecraft.core.enums.EnumDropCause;
-import net.minecraft.core.item.Item;
-import net.minecraft.core.item.ItemStack;
-import net.minecraft.core.world.World;
-import net.minecraft.core.block.BlockStairs;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import turniplabs.halplibe.helper.recipeBuilders.RecipeBuilderFurnace;
-import turniplabs.halplibe.helper.recipeBuilders.RecipeBuilderBlastFurnace;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import java.util.HashMap;
+
 import java.util.Map;
-import net.minecraft.core.block.Block;
-import net.minecraft.core.item.Item;
 
 
 @Mixin(value = {LookupFuelFurnace.class}, remap = false)
@@ -94,7 +77,7 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.jukebox.id, 1600);
 	}
 	//@Shadow private Block modelBlock;
-	/**
+	/*
 	@Inject(method = "getBreakResult", at = @At("TAIL"),remap = false, cancellable = true)
 	private void stairs(World world, EnumDropCause dropCause, int x, int y, int z, int meta, TileEntity tileEntity, CallbackInfoReturnable<ItemStack[]> cir) {
 		if(world.rand.nextFloat()<0.005){ // 0.001 Should be 0.1% chance aka 1/1000. 0.005 = 1/200 chance.
