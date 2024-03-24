@@ -43,3 +43,4 @@ And for 7.1pre2a:
 
 - Noteblock
 - Jukebox
+- Chests
