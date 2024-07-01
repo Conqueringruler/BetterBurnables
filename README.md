@@ -44,3 +44,9 @@ And for 7.1pre2a:
 - Noteblock
 - Jukebox
 - Chests
+
+And for 7.2pr2:
+
+- Rope
+- Painted doors and trapdoors
+- Thorn and palm logs and leaves

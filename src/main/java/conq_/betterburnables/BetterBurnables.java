@@ -29,4 +29,9 @@ public class BetterBurnables implements ModInitializer, GameStartEntrypoint, Rec
 	public void onRecipesReady() {
 
 	}
+
+	@Override
+	public void initNamespaces() {
+
+	}
 }
