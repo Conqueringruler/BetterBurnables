@@ -45,6 +45,8 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.leavesOakRetro.id, 10);
 		this.addFuelEntry(Block.leavesShrub.id, 10);
 		this.addFuelEntry(Block.leavesEucalyptus.id, 10);
+		this.addFuelEntry(Block.leavesThorn.id, 10);
+		this.addFuelEntry(Block.leavesPalm.id, 10);
 
 		this.addFuelEntry(Item.ammoArrow.id, 20);
 		this.addFuelEntry(Block.torchCoal.id, 20);
@@ -67,6 +69,8 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.basket.id, 300);
 		this.addFuelEntry(Item.seat.id, 300);
 		this.addFuelEntry(Block.trapdoorPlanksOak.id, 300);
+		this.addFuelEntry(Item.doorOakPainted.id, 300);
+		this.addFuelEntry(Block.trapdoorPlanksOakPainted.id, 300);
 		this.addFuelEntry(Block.pumpkinCarvedIdle.id, 300);
 		this.addFuelEntry(Block.fencePaperWall.id, 300);
 
@@ -80,6 +84,11 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.chestLegacyPainted.id, 800);
 		this.addFuelEntry(Block.chestPlanksOak.id, 800);
 		this.addFuelEntry(Block.chestPlanksOakPainted.id, 800);
+
+		this.addFuelEntry(Block.logThorn.id, 300);
+		this.addFuelEntry(Block.logPalm.id, 300);
+
+		this.addFuelEntry(Item.rope.id, 60);
 	}
 	//@Shadow private Block modelBlock;
 	/*
