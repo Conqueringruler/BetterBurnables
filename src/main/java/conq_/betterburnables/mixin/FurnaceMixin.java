@@ -29,7 +29,6 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.cobweb.id, 10);
 		this.addFuelEntry(Item.seedsWheat.id, 10);
 		this.addFuelEntry(Item.seedsPumpkin.id, 10);
-		this.addFuelEntry(Block.saplingCacao.id, 10);
 		this.addFuelEntry(Item.paper.id, 10);
 		this.addFuelEntry(Item.wheat.id, 10);
 		this.addFuelEntry(Item.string.id, 10);
@@ -45,16 +44,20 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.leavesOakRetro.id, 10);
 		this.addFuelEntry(Block.leavesShrub.id, 10);
 		this.addFuelEntry(Block.leavesEucalyptus.id, 10);
+		this.addFuelEntry(Block.leavesThorn.id, 10);
+		this.addFuelEntry(Block.leavesPalm.id, 10);
 
 		this.addFuelEntry(Item.ammoArrow.id, 20);
 		this.addFuelEntry(Block.torchCoal.id, 20);
 		this.addFuelEntry(Item.cloth.id, 20);
+		this.addFuelEntry(Item.rope.id, 20);
 
 		this.addFuelEntry(Block.wool.id, 50);
-		this.addFuelEntry(Block.pressureplatePlanksOak.id, 50);
 		this.addFuelEntry(Item.label.id, 50);
 		this.addFuelEntry(Block.blockSugarcaneBaked.id, 50);
 		this.addFuelEntry(Item.book.id, 50);
+		this.addFuelEntry(Block.saplingPalm.id, 100);
+		this.addFuelEntry(Block.saplingThorn.id, 100);
 
 		this.addFuelEntry(Item.flag.id, 150);
 		this.addFuelEntry(Item.painting.id, 150);
@@ -62,13 +65,16 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Item.map.id, 150);
 
 
-		this.addFuelEntry(Block.bookshelfPlanksOak.id, 300);
 		this.addFuelEntry(Block.seat.id, 300);
 		this.addFuelEntry(Block.basket.id, 300);
 		this.addFuelEntry(Item.seat.id, 300);
 		this.addFuelEntry(Block.trapdoorPlanksOak.id, 300);
+		this.addFuelEntry(Item.doorOakPainted.id, 300);
+		this.addFuelEntry(Block.trapdoorPlanksOakPainted.id, 300);
 		this.addFuelEntry(Block.pumpkinCarvedIdle.id, 300);
 		this.addFuelEntry(Block.fencePaperWall.id, 300);
+		this.addFuelEntry(Block.logThorn.id, 300);
+		this.addFuelEntry(Block.logPalm.id, 300);
 
 		this.addFuelEntry(Block.pumpkinCarvedActive.id, 500);
 		this.addFuelEntry(Block.paperWall.id, 500);
@@ -76,10 +82,9 @@ protected Map<Integer, Integer> fuelList;
 		this.addFuelEntry(Block.noteblock.id, 800);
 		this.addFuelEntry(Block.jukebox.id, 800);
 
-		this.addFuelEntry(Block.chestLegacy.id, 800); // 1 item is 200
-		this.addFuelEntry(Block.chestLegacyPainted.id, 800);
-		this.addFuelEntry(Block.chestPlanksOak.id, 800);
-		this.addFuelEntry(Block.chestPlanksOakPainted.id, 800);
+		this.addFuelEntry(Block.chestLegacy.id, 300); // fuel needed for 1 item is 200
+		this.addFuelEntry(Block.chestLegacyPainted.id, 300);
+
 	}
 	//@Shadow private Block modelBlock;
 	/*

@@ -3,6 +3,7 @@
 Allows all the items that are realistically burnable be burned in furnaces. 
 If there's anything you think I missed, let me know! 
 Should be completely compatable with other mods btw :)
+Thanks to Bigjango13 for updating the mod to 7.2-Pre2 in my absence. 
 
 ## Tons of items now burnable!
 As of v. 1.0 the full list is:
@@ -44,3 +45,14 @@ And for 7.1pre2a:
 - Noteblock
 - Jukebox
 - Chests
+
+And for 7.2pre2:
+
+- Rope
+- Painted doors and trapdoors
+- Thorn Logs, Palm Logs
+- Thorn Leaves, Palm Leaves
+- Thorn Sapling, Palm Sapling
+
+- Balanced saplings the devs forgot about (lol they did it again) with the other saplings' new fuel stats
+- Removed Bookshelf, Chests, Cacao Sapling, Pressure Plate as the devs have added these in the base mod. 
