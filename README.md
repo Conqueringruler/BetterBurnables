@@ -54,3 +54,9 @@ And for 7.2pre2:
 - Thorn Sapling, Palm Sapling
 
 - Removed Bookshelf, Chests, Cacao Sapling, Pressure Plate as the devs have added these in the base mod. 
+
+And for 7.3:
+
+- Added Paintbrush
+- Removed Thorn Sapling, Palm Sapling, Ladder, Trapdoor,
+- Palm Log, Thorn Log,  as these have been added in the main mod
